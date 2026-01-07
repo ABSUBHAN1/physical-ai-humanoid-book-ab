@@ -22,8 +22,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'physical-ai-humanoid-book1', // Usually your GitHub org/user name.
-  projectName: 'physical-ai-humanoid-book1.github.io', // Usually your repo name.
+  organizationName: 'ABSUBHAN1', // Usually your GitHub org/user name.
+  projectName: 'physical-ai-humanoid-book-ab', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -47,7 +47,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/physical-ai-humanoid-book1/physical-ai-humanoid-book1/tree/main/frontend/',
+            'https://github.com/ABSUBHAN1/physical-ai-humanoid-book-ab/tree/main/frontend/',
         },
         blog: {
           showReadingTime: true,
@@ -58,7 +58,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/physical-ai-humanoid-book1/physical-ai-humanoid-book1/tree/main/frontend/',
+            'https://github.com/ABSUBHAN1/physical-ai-humanoid-book-ab/tree/main/frontend/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -92,7 +92,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Research Blog', position: 'left'},
         {
-          href: 'https://github.com/physical-ai-humanoid-book1/physical-ai-humanoid-book1',
+          href: 'https://github.com/ABSUBHAN1/physical-ai-humanoid-book-ab',
           label: 'GitHub',
           position: 'right',
         },
@@ -136,7 +136,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/physical-ai-humanoid-book1/physical-ai-humanoid-book1',
+              href: 'https://github.com/ABSUBHAN1/physical-ai-humanoid-book-ab',
             },
           ],
         },
