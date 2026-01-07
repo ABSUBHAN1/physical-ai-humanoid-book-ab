@@ -1,0 +1,21 @@
+.docPage {
+  position: relative;
+  min-height: 100vh;
+}
+
+.docContent {
+  padding-bottom: 100px; /* Make space for the floating chatbot */
+}
+
+.chatbotContainer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+@media (max-width: 996px) {
+  .docContent {
+    padding-bottom: 120px; /* More space needed on smaller screens */
+  }
+}

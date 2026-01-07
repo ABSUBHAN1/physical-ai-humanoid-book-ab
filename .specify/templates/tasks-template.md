@@ -48,9 +48,9 @@ description: "Task list template for feature implementation"
 
 **Purpose**: Project initialization and basic structure
 
-- [ ] T001 Create project structure per implementation plan
-- [ ] T002 Initialize [language] project with [framework] dependencies
-- [ ] T003 [P] Configure linting and formatting tools
+- [ ] T001 Create project structure per implementation plan with modular design (one folder per module, one file per chapter)
+- [ ] T002 Initialize documentation project with metadata for indexing and vector embeddings
+- [ ] T003 [P] Configure tools for AI-assisted learning (RAG, personalization, translation)
 
 ---
 
@@ -62,12 +62,12 @@ description: "Task list template for feature implementation"
 
 Examples of foundational tasks (adjust based on your project):
 
-- [ ] T004 Setup database schema and migrations framework
-- [ ] T005 [P] Implement authentication/authorization framework
-- [ ] T006 [P] Setup API routing and middleware structure
-- [ ] T007 Create base models/entities that all stories depend on
-- [ ] T008 Configure error handling and logging infrastructure
-- [ ] T009 Setup environment configuration management
+- [ ] T004 Setup chapter template with required 10 sections (Overview, Why This Matters, Core Concepts, etc.)
+- [ ] T005 [P] Implement content structure for hands-on labs and simulations
+- [ ] T006 [P] Setup code example framework (Python/ROS 2) with testing environment
+- [ ] T007 Create base content models that all chapters depend on
+- [ ] T008 Configure safety and ethics guidelines for all content
+- [ ] T009 Setup technical stack alignment (ROS 2, Gazebo, Isaac Sim, etc.)
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel
 
@@ -83,17 +83,17 @@ Examples of foundational tasks (adjust based on your project):
 
 > **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T010 [P] [US1] Contract test for [endpoint] in tests/contract/test_[name].py
-- [ ] T011 [P] [US1] Integration test for [user journey] in tests/integration/test_[name].py
+- [ ] T010 [P] [US1] Content test for embodied intelligence concepts in tests/content/test_[name].md
+- [ ] T011 [P] [US1] Hands-on lab test for [simulation/experiment] in tests/labs/test_[name].md
 
 ### Implementation for User Story 1
 
-- [ ] T012 [P] [US1] Create [Entity1] model in src/models/[entity1].py
-- [ ] T013 [P] [US1] Create [Entity2] model in src/models/[entity2].py
-- [ ] T014 [US1] Implement [Service] in src/services/[service].py (depends on T012, T013)
-- [ ] T015 [US1] Implement [endpoint/feature] in src/[location]/[file].py
-- [ ] T016 [US1] Add validation and error handling
-- [ ] T017 [US1] Add logging for user story 1 operations
+- [ ] T012 [P] [US1] Create chapter with 10 required sections in modules/[module-name]/[chapter-name].md
+- [ ] T013 [P] [US1] Add code examples in Python/ROS 2 in modules/[module-name]/examples/[example-name].py
+- [ ] T014 [US1] Implement hands-on lab with simulation in modules/[module-name]/labs/[lab-name].md
+- [ ] T015 [US1] Add review questions and glossary in modules/[module-name]/[chapter-name].md
+- [ ] T016 [US1] Include safety and ethics considerations
+- [ ] T017 [US1] Add personalization hooks for different experience levels
 
 **Checkpoint**: At this point, User Story 1 should be fully functional and testable independently
 
@@ -150,12 +150,12 @@ Examples of foundational tasks (adjust based on your project):
 
 **Purpose**: Improvements that affect multiple user stories
 
-- [ ] TXXX [P] Documentation updates in docs/
-- [ ] TXXX Code cleanup and refactoring
-- [ ] TXXX Performance optimization across all stories
-- [ ] TXXX [P] Additional unit tests (if requested) in tests/unit/
-- [ ] TXXX Security hardening
-- [ ] TXXX Run quickstart.md validation
+- [ ] TXXX [P] Content consistency review across all chapters
+- [ ] TXXX RAG optimization for all content sections
+- [ ] TXXX Cross-referencing and linking between related concepts
+- [ ] TXXX [P] Translation readiness for secondary language support
+- [ ] TXXX Accessibility improvements for all diagrams and examples
+- [ ] TXXX Run textbook validation and review process
 
 ---
 

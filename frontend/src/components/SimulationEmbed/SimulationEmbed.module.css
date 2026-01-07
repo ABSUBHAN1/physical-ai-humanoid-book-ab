@@ -1,0 +1,57 @@
+.simulationContainer {
+  margin: 2rem 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.simulationHeader {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.simulationHeader h3 {
+  margin: 0 0 0.5rem 0;
+  color: #2c3e50;
+  font-size: 1.25rem;
+}
+
+.description {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.simulationFrame {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #000;
+}
+
+.iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.simulationFooter {
+  background-color: #f8f9fa;
+  padding: 0.75rem 1rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.simulationFooter p {
+  margin: 0;
+  color: #666;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .simulationFrame {
+    height: 300px;
+  }
+}

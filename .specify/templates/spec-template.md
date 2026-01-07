@@ -84,16 +84,16 @@
 
 ### Functional Requirements
 
-- **FR-001**: System MUST [specific capability, e.g., "allow users to create accounts"]
-- **FR-002**: System MUST [specific capability, e.g., "validate email addresses"]  
-- **FR-003**: Users MUST be able to [key interaction, e.g., "reset their password"]
-- **FR-004**: System MUST [data requirement, e.g., "persist user preferences"]
-- **FR-005**: System MUST [behavior, e.g., "log all security events"]
+- **FR-001**: Content MUST follow Embodied Intelligence First principle with intelligence emerging from interaction with the physical world
+- **FR-002**: Content MUST maintain technical rigor while remaining accessible to beginners with Python knowledge but no robotics experience
+- **FR-003**: Content MUST be designed for AI-assisted learning with RAG, personalization, and translation capabilities
+- **FR-004**: Content MUST follow modular design with one folder per module and one markdown file per chapter
+- **FR-005**: Each chapter MUST include hands-on labs, code examples (Python/ROS 2), and debugging sections
 
 *Example of marking unclear requirements:*
 
-- **FR-006**: System MUST authenticate users via [NEEDS CLARIFICATION: auth method not specified - email/password, SSO, OAuth?]
-- **FR-007**: System MUST retain user data for [NEEDS CLARIFICATION: retention period not specified]
+- **FR-006**: Content MUST incorporate safety and ethics considerations [NEEDS CLARIFICATION: specific safety protocols to be defined]
+- **FR-007**: Content MUST align with technical stack [NEEDS CLARIFICATION: specific version requirements for ROS 2, simulators, etc.]
 
 ### Key Entities *(include if feature involves data)*
 
